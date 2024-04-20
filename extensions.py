@@ -43,7 +43,7 @@ class CurrencyConverter:
 
         #  Проверяем не пытается ли пользователь конвертировать одинаковые валюты.
         if base_ticker == quote_ticker:
-            raise APIException(f'Вы пытаетесь конвертировать {base} в {base}. \
+            raise APIException(f'Вы пытаетесь конвертировать {base_ticker} в {base_ticker}. \
 \nЯ не предназначен для этого. Пожалуйста, введите разные валюты.')
 
         #  Делаем API запрос.
