@@ -1,5 +1,5 @@
 #  Токен бота.
-TOKEN = '7032360607:AAHDOqNZnAdSeKO_uUKvPX5rMmzS5jMdrXQ'
+TOKEN = ''
 
 #  Словарь со значениями с которыми может работать бот.
 keys = {
